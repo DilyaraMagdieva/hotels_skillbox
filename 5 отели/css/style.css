@@ -1,0 +1,422 @@
+/* muller light-300 - latin_cyrillic */
+@font-face { 
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+         url('../fonts/MullerLight.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('../fonts/MullerLight.woff2') format('woff2'); /* Chrome 26+, Opera 23+, Firefox 39+ */
+}
+
+/* muller regular 400 - latin_cyrillic */
+@font-face { 
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/MullerRegular.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('../fonts/MullerRegular.woff2') format('woff2'); /* Chrome 26+, Opera 23+, Firefox 39+ */
+}
+
+/* muller medium 500- latin_cyrillic */
+@font-face { 
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/MullerMedium.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('../fonts/MullerMedium.woff2') format('woff2'); /* Chrome 26+, Opera 23+, Firefox 39+ */
+}
+
+/* muller bold 700- latin_cyrillic */
+@font-face { 
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/MullerBold.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('../fonts/MullerBold.woff2') format('woff2'); /* Chrome 26+, Opera 23+, Firefox 39+ */
+}
+
+* {
+    box-sizing: border-box; /* изучить получше */
+}
+
+html {
+    max-width: 1920px; /* возможно не обязательное*/
+    font-family: 'Muller';
+    background: #E5E5E5;
+}
+
+ul {
+    padding: 0; /* изучить получше */
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%; /* изучить получше */
+}
+
+.margin-bottom {
+    margin-bottom: 70px;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1;
+    color: #333333;
+}
+
+.text {
+    margin: 0;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.btn {
+    padding: 13px 20px;
+    text-align: center;
+    border: 1px solid #CC9933;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #CC9933;
+}
+
+/* header */
+.header {
+    height: 154px;
+    margin-top: 30px;
+}
+
+.header-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-top {
+    height: 54px;
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    margin-right: 40px;
+}
+
+.tel {
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 500;
+    color: #666666;
+}
+
+.header-top-enter {
+    margin-left: auto;
+}
+
+.enter-icon {
+    display: inline-block;
+    width: 21px;
+    height: 12px;
+    margin-right: 7px;
+    background-image: url('/img/enter-icon.svg');
+}
+
+.enter-lk {
+    font-size: 16px;
+    line-height: 1;
+    color: #CC9933;
+}
+
+.nav {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+
+.nav-list {
+    width: 65%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-right: 1px solid #E1E1E1;
+}
+
+.nav-item {
+    margin-right: 35px;
+}
+
+.nav-item-link {
+    font-size: 16px;
+    line-height: 1;
+    color: #666666;
+}
+
+.btns-right {
+    width: 35%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* special */
+.special-list {   
+    display: flex;
+    justify-content: space-between;
+}
+
+.special-item {
+    width: 573px;
+    padding: 40px;
+    padding-right: 234px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.item-bgi-maldives {
+    margin-bottom: 23px;
+    background-image: url('/img/1_1special.png');
+}
+
+.item-bgi-krit {
+    background-image: url('/img/1_2special.png');
+}
+
+.item-bgi-lux {
+    padding-top: 211px;
+    padding-right: 234px;
+    background-image: url('/img/1_3special.png');
+    
+}
+
+.spesial-item-tit {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.lux-tit {
+    font-size: 60px;
+    line-height: 1.3;
+}
+
+.special-price {
+    margin-top: 0;
+    margin-bottom: 47px;
+    font-size: 20px;
+    line-height: 1;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.lux-price {
+    font-size: 30px;
+}
+
+.spesial-more {
+    padding-right: 20px;
+    font-size: 16px;
+    line-height: 1;
+    color: #FFCC66;
+    background-image: url('/img/more.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 20px 20px;
+}
+
+/* about */
+.about-text {
+    margin-right: 282px;
+}
+
+/* services */
+.services {
+    margin-bottom: 65px;
+}
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services-item {
+    width: 573px;
+    padding-top: 191px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+
+.service {
+    margin-bottom: 23px;
+    background-image: url('/img/2_1servises.png');
+}
+.rent {
+    margin-bottom: 23px;
+    background-image: url('/img/2_2servises.png');
+}
+.pool {
+    background-image: url('/img/2_3servises.png');
+}
+.parking {
+    background-image: url('/img/2_4servises.png');
+}
+
+.services-item-ref {
+    margin-left: 45px;
+    padding-right: 22px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.3;
+    color: #CC9933;
+    background-image: url('/img/more2.svg');
+    background-position: right center;
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+}
+
+.services-text {
+    margin-top: 10px;
+    margin-right: 126px;
+    margin-bottom: 45px;
+    margin-left: 45px;
+}
+
+/* advantages */
+.adv-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.adv-item {
+    width: 275px;
+    height: 275px;
+    padding: 116px 42px 41px 45px;
+    background-position: 45px 40px;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.bath-icon {
+    margin-bottom: 23px;
+    background-image: url('/img/3_1bathtub.svg');
+}
+.hanger-icon {
+    margin-bottom: 23px;
+    background-image: url('/img/3_2hanger.svg');
+}
+.heating-icon {
+    margin-bottom: 23px;
+    background-image: url('/img/3_3heating.svg');
+}
+.key-icon {
+    margin-bottom: 23px;
+    background-image: url('/img/3_4hotel-key.svg');
+}
+.parking-icon {
+    background-image: url('/img/3_5parking.svg');
+}
+.reception-icon {
+    background-image: url('/img/3_6reception.svg');
+}
+.box-icon {
+    background-image: url('/img/3_7security-box.svg');
+}
+.pool-icon {
+    background-image: url('/img/3_8swimming-pool.svg');
+}
+
+/* placing */
+
+.placing-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.placing-item {
+    width: 374px;
+    height: 440px;
+    margin-bottom: 23px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.placing-flex {
+    margin: 36px 46px 16px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.placing-place, 
+.placing-clear,
+.placing-btn {
+ margin-left: 45px;
+ margin-bottom: 16px;
+}
+
+.placing-btn {
+    display: inline-block;
+}
+.placing-clear {
+    color: #999;
+}
+.plasing-strong {
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.all-placing {
+    width: 374px;
+    height: 440px;
+    background-image: url('/img/4_9place.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.placing-all-link {
+    display: inline-block;
+    margin: 373px 40px 27px 54px;
+    padding-right: 20px;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 500;
+    background-image: url('/img/more3.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    color: #fff;
+}  
